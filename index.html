@@ -76,6 +76,27 @@
             }
         }
 
+        a {
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .screenshots {
+            max-width: calc(100vw - 6em);
+            overflow-y: hidden;
+            overflow-x: scroll;
+        }
+
+        .screenshots > img {
+            max-width: 10em;
+            height: 100%;
+            border-radius: 0.5em;
+        }
+
         .icon {
             width: 1.5em;
             height: 1.5em;
@@ -304,7 +325,8 @@
                     style="border-radius: 1em 0 0 1em; border-right: 0"
                 >
                     <div class="col">
-                        <h4>HSE Faculty Day (Android)</h4>
+                        <h4>HSE Faculty Day</h4>
+                        Android Development in Kotlin<br />
                         10/10 on two graduation projects
                     </div>
                 </li>
@@ -317,7 +339,7 @@
                 </li>
                 <li class="card row" style="border-radius: 0 1em 1em 0">
                     <div class="col">
-                        <h4>Yandex Python Development Course</h4>
+                        <h4>Yandex Python<br />Development Course</h4>
                         Honourary Certificate
                     </div>
                 </li>
@@ -343,6 +365,120 @@
                         <h4>Underwater Robotics</h4>
                         BTMSU Competition Winner
                     </div>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Completed Projects</h3>
+            <ul class="card-list col">
+                <li class="card col">
+                    <a
+                        href="https://github.com/yaroslav-belozerov/SuperFinancer"
+                        ><h4>SuperFinancer</h4></a
+                    >
+                    <p>
+                        App for advanced financial tracking.<br />Browse the NYT
+                        news feed and view realtime stock prices, not losing
+                        focus even offline.<br />Search content easily, then
+                        save it to your local password-protected vault with
+                        image and text comments.<br />Track your financial gains
+                        and losses by completing goals.
+                    </p>
+                    <details>
+                        <summary>Screenshots</summary>
+                        <div class="row screenshots">
+                            <img
+                                src="https://github.com/yaroslav-belozerov/SuperFinancer/raw/master/promo/convert/main_1.jpg"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/SuperFinancer/raw/master/promo/convert/main_3.jpg"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/SuperFinancer/raw/master/promo/convert/search.jpg"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/SuperFinancer/raw/master/promo/convert/article_webview.jpg"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/SuperFinancer/raw/master/promo/convert/finance_1.jpg"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/SuperFinancer/raw/master/promo/convert/feed_1.jpg"
+                            />
+                        </div>
+                    </details>
+                </li>
+                <li class="card col">
+                    <a href="https://github.com/yaroslav-belozerov/glowws"
+                        ><h4>Glowws</h4></a
+                    >
+                    <p>
+                        Effortless note-taking on the go.<br />Express you ideas
+                        as lists, then manipulate them with AI.<br />Sort
+                        through ideas easily with filters, smart search, and
+                        self-assigned "priority".<br />Generation happens
+                        locally for maximum privacy - use any model you want
+                        on-device.<br />
+                    </p>
+                    <details>
+                        <summary>Screenshots</summary>
+                        <div class="row screenshots">
+                            <img
+                                src="https://github.com/yaroslav-belozerov/glowws/raw/main/misc/promo/screenshots/login.png"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/glowws/raw/main/misc/promo/screenshots/main.jpg"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/glowws/raw/main/misc/promo/screenshots/idea.png"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/glowws/raw/main/misc/promo/screenshots/generation.png"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/glowws/raw/main/misc/promo/screenshots/gen_options.jpg"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/glowws/raw/main/misc/promo/screenshots/sort_filter.png"
+                            />
+                            <img
+                                src="https://github.com/yaroslav-belozerov/glowws/raw/main/misc/promo/screenshots/settings.png"
+                            />
+                        </div>
+                    </details>
+                </li>
+                <li class="card col">
+                    <a href="https://github.com/pickme-team/cobro"
+                        ><h4>Cobro</h4></a
+                    >
+                    <p>
+                        Use an interactive map to book a workspace.<br />See
+                        what time is available and reschedule easily.<br />Scan
+                        a QR-code to get inside (with a manager matching your
+                        profile picture), then track your time or ask the
+                        workspace owner a question.<br />The app includes both
+                        the client and the manager parts.
+                    </p>
+                    <details>
+                        <summary>Screenshots</summary>
+                        <div class="row screenshots">
+                            <img
+                                src="https://github.com/pickme-team/cobro/raw/main/misc/screenshots/book1.jpg"
+                            />
+                            <img
+                                src="https://github.com/pickme-team/cobro/raw/main/misc/screenshots/book3.jpg"
+                            />
+                            <img
+                                src="https://github.com/pickme-team/cobro/raw/main/misc/screenshots/book4.jpg"
+                            />
+                            <img
+                                src="https://github.com/pickme-team/cobro/raw/main/misc/screenshots/view.jpg"
+                            />
+                            <img
+                                src="https://github.com/pickme-team/cobro/raw/main/misc/screenshots/admin_closest.jpg"
+                            />
+                        </div>
+                    </details>
                 </li>
             </ul>
         </section>
